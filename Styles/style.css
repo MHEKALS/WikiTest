@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hmp{
+    font-style: italic;
+
+}
+
+.html-1 {
+    text-align: right;
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.list-container {
+    display: inline-block;
+border-style: solid;
+border-width: 0.5px;
+padding-right: 20px;
+}
+
+.list-container>p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.html-1>div {
+display: flex;
+align-items:  center;
+flex-direction: column;
+}
+
+.logo-html-5 {
+    max-width: 80px;
+
+}
+/* Верхняя нав. панель */
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(148, 148, 148);
+}
+
+.nav-cont>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+
+
+@media (max-width: 900px) {
+    .nav-cont {
+        flex-direction: column;
+
+    }
+}
+
+.text-page {
+    padding-left: 15px;
+}
+
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+.header-left {
+width: 14%;
+background-color: rgb(193, 204, 200);
+}
+.header-right {
+    width: 82%;
+}
+
+.header-left > ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.header-left > div {
+    width: 100%;
+}
+
+.header-left > div > img {
+    width: 100%;
+}
